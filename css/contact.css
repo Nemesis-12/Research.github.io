@@ -1,0 +1,73 @@
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+  }
+  
+  .contact-info .item{
+    width: calc(33% - 20px);
+    height: 160px;
+    background-color: #202C59;
+    color: #E7E5DF;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s linear;
+  }
+  
+  .contact-info i{
+    display: block;
+    font-size: 40px;
+    line-height: 120px;
+    height: 100px;
+  }
+  
+  .contact-info .item:hover{
+    background-color: #E2C044;
+    color: #E7E5DF;
+  }
+  
+  .contact-form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .contact-form input, .contact-form textarea{
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    padding: 20px;
+    border-radius: 4px;
+    color: #202C59;
+  }
+  
+  .nameZone, .emailZone{
+    max-width: calc(50% - 10px);
+  }
+  
+  .msgZone{
+    min-height: 200px;
+    resize: vertical;
+  }
+  
+  .contact-form .btn{
+    width: 180px;
+    background-color: transparent;
+    color: #202C59;
+    font-size: 16px;
+    border: 2px solid #E2C044;
+    padding: 0;
+    margin-left: auto;
+    cursor: pointer;
+    transition: .3s linear;
+  }
+  
+  .contact-form .btn:hover{
+    background-color: #E2C044;
+    color: #E7E5DF;
+  }

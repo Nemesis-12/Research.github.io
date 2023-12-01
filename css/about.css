@@ -1,0 +1,73 @@
+section {
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.block-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    height: 60vh;
+}
+
+.pic {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 400px;
+    width: 400px;
+    margin: auto 3rem auto 0;
+}
+
+.pic img {
+    border-radius: 50%;
+    border: 2.5px solid #353B48;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.profile {
+    margin: 3rem;
+    text-align: center;
+}
+
+.block {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+    height: 100%;
+    background-color: #fff;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    margin: auto; 
+}
+
+.profile .info {
+    font-weight: 600;
+    font-size: 16px;
+    max-width: 600px;
+    text-align: justify;
+    margin-top: 1.5rem;
+}
+
+.block .p1 {
+    text-align: center;
+}
+
+.block .p2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.block h1 {
+    font-size: 3rem;
+    text-align: center;
+}
