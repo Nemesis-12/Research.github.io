@@ -31,7 +31,7 @@
 .logo{
   width: 75px;
   height: 75px;
-  background-image: url(images/logo1.png);
+  background-image: url(../images/logo1.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -74,7 +74,7 @@
 }
 
 .sticky .logo{
-  background-image: url(images/logo2.png);
+  background-image: url(../images/logo2.png);
 }
 
 .sticky .navbar-menu a{
