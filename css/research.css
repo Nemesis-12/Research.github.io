@@ -105,3 +105,14 @@
     height: auto;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 768px){
+    .block-container {
+      flex-direction: column;
+    }
+  
+    .block, .block-rev {
+      margin: 10px;
+      width: auto;
+    }
+}
