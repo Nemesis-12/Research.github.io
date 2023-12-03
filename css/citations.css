@@ -25,3 +25,14 @@
     font-size: 16px;
     align-items: center;
 }
+
+@media screen and (max-width: 768px){
+    .block-container {
+      flex-wrap: wrap;
+    }
+  
+    .block {
+      width: 100%;
+      margin: 10px 0;
+    }
+}
