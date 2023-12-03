@@ -49,3 +49,14 @@
   background-color: #E2C044;
   color: #191D32;
 }
+
+@media screen and (max-width: 768px){
+  #home .content h1 {
+    font-size: 40px;
+  }
+
+  #home .buttons a {
+    margin: 15px 15px;
+    font-size: 13px;
+  }
+}
