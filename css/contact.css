@@ -71,3 +71,14 @@
     background-color: #E2C044;
     color: #E7E5DF;
   }
+
+@media screen and (max-width: 768px){
+    .contact-info {
+      flex-wrap: wrap;
+    }
+  
+    .contact-info .item {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
