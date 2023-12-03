@@ -71,3 +71,45 @@ section {
     font-size: 3rem;
     text-align: center;
 }
+
+@media screen and (max-width: 768px){
+    .block-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        height: auto;
+    }
+
+    .pic {
+        width: 80%;
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .pic img {
+        width: 100%;
+        height: auto;
+    }
+
+    .profile {
+        margin: 1rem;
+    }
+
+    .block {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .profile .info {
+        font-size: 1rem;
+    }
+
+    .block h1 {
+        font-size: 2rem;
+    }
+
+    .block .p1, .block .p2 {
+        font-size: 1rem;
+    }
+}
